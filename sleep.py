@@ -24,13 +24,13 @@ st.sidebar.header("Enter Patient Details")
 
 # Numerical features
 age = st.sidebar.slider("Age", min_value=1, max_value=100, value=42)
-sleep_duration = st.sidebar.slider("Sleep Duration (hours)", min_value=2, max_value=15, value=7.0, step=0.1)
+sleep_duration = st.sidebar.slider("Sleep Duration (hours)", min_value=5.8, max_value=8.5, value=7.0, step=0.1)
 quality_of_sleep = st.sidebar.slider("Quality of Sleep (1-10)", min_value=1, max_value=10, value=7)
-physical_activity_level = st.sidebar.slider("Physical Activity Level (minutes/day)", min_value=0, max_value=120, value=60)
+physical_activity_level = st.sidebar.slider("Physical Activity Level (minutes/day)", min_value=30, max_value=90, value=60)
 stress_level = st.sidebar.slider("Stress Level (1-10)", min_value=1, max_value=10, value=5)
-heart_rate = st.sidebar.slider("Heart Rate (bpm)", min_value=50, max_value=90, value=70)
-daily_steps = st.sidebar.slider("Daily Steps", min_value=500, max_value=20000, value=7000)
-systolic_bp = st.sidebar.slider("Systolic Blood Pressure", min_value=100, max_value=150, value=128)
+heart_rate = st.sidebar.slider("Heart Rate (bpm)", min_value=65, max_value=86, value=70)
+daily_steps = st.sidebar.slider("Daily Steps", min_value=3000, max_value=10000, value=7000)
+systolic_bp = st.sidebar.slider("Systolic Blood Pressure", min_value=110, max_value=150, value=128)
 diastolic_bp = st.sidebar.slider("Diastolic Blood Pressure", min_value=70, max_value=100, value=85)
 
 # Categorical features
